@@ -5,7 +5,10 @@ const dbConfig = require("./app/config/db.config");
 const app = express();
 const api = require("./app/routes/file.routes");
 var corsOptions = {
-    origin: ["http://localhost:3000", "https://project-of-teacher.vercel.app"],
+    origin: [
+        "http://localhost:3000",
+        "https://jobdhhp-git-main-nghialeopards-projects.vercel.app/",
+    ],
 };
 
 app.use(cors(corsOptions));
