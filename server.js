@@ -8,6 +8,7 @@ var corsOptions = {
     origin: [
         "http://localhost:3000",
         "https://jobdhhp-git-main-nghialeopards-projects.vercel.app/",
+        "https://jobdhhp.vercel.app/employeelogin",
     ],
 };
 
